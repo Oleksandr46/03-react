@@ -5,6 +5,8 @@ import SearchForm from '../SearchForm/SearchForm';
 import { fetchArticles } from "../../services/ArticleService";
 
 
+
+
 export default function App() {
     const [articles, setArticles] = useState<Article[]>([]);
     const [isLonding, setIsLonding] = useState(false);
