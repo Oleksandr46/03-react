@@ -2,7 +2,7 @@ import { useState } from 'react';
 import type { Article } from '../../types/article';
 import ArticleList from '../ArticleList/ArticleList';
 import SearchForm from '../SearchForm/SearchForm';
-import { fetchArticles } from '../services/articleService';
+import { fetchArticles } from '../../services/articleService';
 
 
 
