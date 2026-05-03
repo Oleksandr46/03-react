@@ -4,6 +4,7 @@ interface ArticleListProps {
   items: Article[];
 }
 
+
 export default function ArticleList({ items }: ArticleListProps) {
   return (
     <ul>
